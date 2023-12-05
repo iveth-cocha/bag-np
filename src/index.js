@@ -137,9 +137,15 @@ app.get('/',(req,res)=>{
     res.send("landing page")
 })
 
-app.get('/',(req,res)=>{
-    res.send("landing page")
+app.get('/dash',(req,res)=>{
+    res.send("llalala")
 })
+
+app.get('/oreo',(req,res)=>{
+    res.send("galletas")
+})
+
+
 
 
 //habilito puerto 
